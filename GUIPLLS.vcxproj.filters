@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bmpfromocvpanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convertmattowxbmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="face_filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCVFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCVFrame2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="heatmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackingData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlobDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="convertmattowxbmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bmpfromocvpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCVFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCVFrame2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="heatmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCVApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\cards.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\lambo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\paper.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\shapes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SavedImage\17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resources\frontalface.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resources\haarcascade_frontalface_default.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resources\haarcascade_fullbody.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resources\haarcascade_russian_plate_number.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\test_video.mp4">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\test_video3.mp4">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\test_video4.mp4">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\test_video5.mp4">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\highway.mp4" />
+    <Media Include="Resources\testhair.mp4" />
+    <Media Include="Resources\testCrowd.mp4" />
+    <Media Include="Resources\crowdBlob.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yolov4.cfg" />
+    <None Include="Resources\yolov4.weights" />
+  </ItemGroup>
+</Project>
